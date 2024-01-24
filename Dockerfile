@@ -4,4 +4,4 @@ FROM docker.io/cortexproject/cortex:v1.16.0
 COPY config.yaml /opt/config.yaml
 
 
-ENTRYPOINT [ "/bin/cortex", "--config.file=/opt/config.yaml"]
+ENTRYPOINT [ "/bin/cortex", "--config.file=/opt/config.yaml", "-config.expand-env"]
