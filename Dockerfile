@@ -1,4 +1,4 @@
-FROM docker.io/cortexproject/cortex:v1.16.0@sha256:7b317a938db5d9f4f015248f1c119ec9061309b249cb02010a42dd3ad1ffc4f7
+FROM docker.io/cortexproject/cortex:v1.17.1@sha256:4511420c726bce87deaade9e532a98b840e4561dddbc2903c0742b3f7d737ce5
 #RUN wget -O /opt/config.yaml https://cortexmetrics.io/docs/configuration/single-process-config-blocks-local.yaml
 
 COPY config.yaml /opt/config.yaml
